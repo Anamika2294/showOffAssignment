@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:id="@+id/imageView"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/showoff_logo"
+        />
+
+    <EditText
+        android:id = "@+id/editText1"
+        android:layout_width = "350dp"
+        android:layout_height = "wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:hint="Username"
+        />
+
+    <EditText
+        android:id = "@+id/editText2"
+        android:layout_width = "350dp"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="password"
+        android:layout_gravity="center"
+        android:inputType = "textPassword" />
+
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Login" />
+
+
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Login with Instagram" />
+
+</LinearLayout>
